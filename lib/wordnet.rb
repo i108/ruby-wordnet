@@ -2,7 +2,7 @@
 #encoding: utf-8
 
 require 'loggability'
-require 'sequel'
+require 'sequel/no_core_ext'
 
 # This is a Ruby interface to the WordNet® lexical database. It uses the WordNet-SQL
 # project's databases instead of reading from the canonical flatfiles for speed and
